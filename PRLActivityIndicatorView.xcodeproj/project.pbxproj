@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95CC4E4B1A05180A003DD23F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CC4E4A1A05180A003DD23F /* main.m */; };
+		95CC4E4E1A05180A003DD23F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CC4E4D1A05180A003DD23F /* AppDelegate.m */; };
+		95CC4E511A05180A003DD23F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CC4E501A05180A003DD23F /* ViewController.m */; };
+		95CC4E541A05180A003DD23F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CC4E521A05180A003DD23F /* Main.storyboard */; };
+		95CC4E561A05180A003DD23F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CC4E551A05180A003DD23F /* Images.xcassets */; };
+		95CC4E591A05180A003DD23F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95CC4E571A05180A003DD23F /* LaunchScreen.xib */; };
+		95CC4E651A05180A003DD23F /* PRLActivityIndicatorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CC4E641A05180A003DD23F /* PRLActivityIndicatorViewTests.m */; };
+		95CC4E741A051888003DD23F /* PRLActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CC4E6F1A051888003DD23F /* PRLActivityIndicatorView.m */; };
+		95CC4E751A051888003DD23F /* PRLStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CC4E711A051888003DD23F /* PRLStyleKit.m */; };
+		95CC4E761A051888003DD23F /* PRLViewAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CC4E731A051888003DD23F /* PRLViewAnimator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95CC4E5F1A05180A003DD23F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95CC4E3D1A05180A003DD23F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95CC4E441A05180A003DD23F;
+			remoteInfo = PRLActivityIndicatorView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95CC4E451A05180A003DD23F /* PRLActivityIndicatorView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRLActivityIndicatorView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CC4E491A05180A003DD23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95CC4E4A1A05180A003DD23F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95CC4E4C1A05180A003DD23F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95CC4E4D1A05180A003DD23F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95CC4E4F1A05180A003DD23F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95CC4E501A05180A003DD23F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95CC4E531A05180A003DD23F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95CC4E551A05180A003DD23F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		95CC4E581A05180A003DD23F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		95CC4E5E1A05180A003DD23F /* PRLActivityIndicatorViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRLActivityIndicatorViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CC4E631A05180A003DD23F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95CC4E641A05180A003DD23F /* PRLActivityIndicatorViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRLActivityIndicatorViewTests.m; sourceTree = "<group>"; };
+		95CC4E6E1A051888003DD23F /* PRLActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRLActivityIndicatorView.h; sourceTree = "<group>"; };
+		95CC4E6F1A051888003DD23F /* PRLActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRLActivityIndicatorView.m; sourceTree = "<group>"; };
+		95CC4E701A051888003DD23F /* PRLStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRLStyleKit.h; sourceTree = "<group>"; };
+		95CC4E711A051888003DD23F /* PRLStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRLStyleKit.m; sourceTree = "<group>"; };
+		95CC4E721A051888003DD23F /* PRLViewAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRLViewAnimator.h; sourceTree = "<group>"; };
+		95CC4E731A051888003DD23F /* PRLViewAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRLViewAnimator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95CC4E421A05180A003DD23F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CC4E5B1A05180A003DD23F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95CC4E3C1A05180A003DD23F = {
+			isa = PBXGroup;
+			children = (
+				95CC4E471A05180A003DD23F /* PRLActivityIndicatorView */,
+				95CC4E611A05180A003DD23F /* PRLActivityIndicatorViewTests */,
+				95CC4E461A05180A003DD23F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95CC4E461A05180A003DD23F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95CC4E451A05180A003DD23F /* PRLActivityIndicatorView.app */,
+				95CC4E5E1A05180A003DD23F /* PRLActivityIndicatorViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95CC4E471A05180A003DD23F /* PRLActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				95CC4E4C1A05180A003DD23F /* AppDelegate.h */,
+				95CC4E4D1A05180A003DD23F /* AppDelegate.m */,
+				95CC4E4F1A05180A003DD23F /* ViewController.h */,
+				95CC4E501A05180A003DD23F /* ViewController.m */,
+				95CC4E521A05180A003DD23F /* Main.storyboard */,
+				95CC4E551A05180A003DD23F /* Images.xcassets */,
+				95CC4E571A05180A003DD23F /* LaunchScreen.xib */,
+				95CC4E6E1A051888003DD23F /* PRLActivityIndicatorView.h */,
+				95CC4E6F1A051888003DD23F /* PRLActivityIndicatorView.m */,
+				95CC4E701A051888003DD23F /* PRLStyleKit.h */,
+				95CC4E711A051888003DD23F /* PRLStyleKit.m */,
+				95CC4E721A051888003DD23F /* PRLViewAnimator.h */,
+				95CC4E731A051888003DD23F /* PRLViewAnimator.m */,
+				95CC4E481A05180A003DD23F /* Supporting Files */,
+			);
+			path = PRLActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		95CC4E481A05180A003DD23F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95CC4E491A05180A003DD23F /* Info.plist */,
+				95CC4E4A1A05180A003DD23F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95CC4E611A05180A003DD23F /* PRLActivityIndicatorViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				95CC4E641A05180A003DD23F /* PRLActivityIndicatorViewTests.m */,
+				95CC4E621A05180A003DD23F /* Supporting Files */,
+			);
+			path = PRLActivityIndicatorViewTests;
+			sourceTree = "<group>";
+		};
+		95CC4E621A05180A003DD23F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95CC4E631A05180A003DD23F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95CC4E441A05180A003DD23F /* PRLActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CC4E681A05180A003DD23F /* Build configuration list for PBXNativeTarget "PRLActivityIndicatorView" */;
+			buildPhases = (
+				95CC4E411A05180A003DD23F /* Sources */,
+				95CC4E421A05180A003DD23F /* Frameworks */,
+				95CC4E431A05180A003DD23F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PRLActivityIndicatorView;
+			productName = PRLActivityIndicatorView;
+			productReference = 95CC4E451A05180A003DD23F /* PRLActivityIndicatorView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95CC4E5D1A05180A003DD23F /* PRLActivityIndicatorViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CC4E6B1A05180A003DD23F /* Build configuration list for PBXNativeTarget "PRLActivityIndicatorViewTests" */;
+			buildPhases = (
+				95CC4E5A1A05180A003DD23F /* Sources */,
+				95CC4E5B1A05180A003DD23F /* Frameworks */,
+				95CC4E5C1A05180A003DD23F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95CC4E601A05180A003DD23F /* PBXTargetDependency */,
+			);
+			name = PRLActivityIndicatorViewTests;
+			productName = PRLActivityIndicatorViewTests;
+			productReference = 95CC4E5E1A05180A003DD23F /* PRLActivityIndicatorViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95CC4E3D1A05180A003DD23F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Parliant;
+				TargetAttributes = {
+					95CC4E441A05180A003DD23F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					95CC4E5D1A05180A003DD23F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 95CC4E441A05180A003DD23F;
+					};
+				};
+			};
+			buildConfigurationList = 95CC4E401A05180A003DD23F /* Build configuration list for PBXProject "PRLActivityIndicatorView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95CC4E3C1A05180A003DD23F;
+			productRefGroup = 95CC4E461A05180A003DD23F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95CC4E441A05180A003DD23F /* PRLActivityIndicatorView */,
+				95CC4E5D1A05180A003DD23F /* PRLActivityIndicatorViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95CC4E431A05180A003DD23F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CC4E541A05180A003DD23F /* Main.storyboard in Resources */,
+				95CC4E591A05180A003DD23F /* LaunchScreen.xib in Resources */,
+				95CC4E561A05180A003DD23F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CC4E5C1A05180A003DD23F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95CC4E411A05180A003DD23F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CC4E741A051888003DD23F /* PRLActivityIndicatorView.m in Sources */,
+				95CC4E511A05180A003DD23F /* ViewController.m in Sources */,
+				95CC4E751A051888003DD23F /* PRLStyleKit.m in Sources */,
+				95CC4E4E1A05180A003DD23F /* AppDelegate.m in Sources */,
+				95CC4E761A051888003DD23F /* PRLViewAnimator.m in Sources */,
+				95CC4E4B1A05180A003DD23F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CC4E5A1A05180A003DD23F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CC4E651A05180A003DD23F /* PRLActivityIndicatorViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95CC4E601A05180A003DD23F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95CC4E441A05180A003DD23F /* PRLActivityIndicatorView */;
+			targetProxy = 95CC4E5F1A05180A003DD23F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95CC4E521A05180A003DD23F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95CC4E531A05180A003DD23F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95CC4E571A05180A003DD23F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95CC4E581A05180A003DD23F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95CC4E661A05180A003DD23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95CC4E671A05180A003DD23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95CC4E691A05180A003DD23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PRLActivityIndicatorView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95CC4E6A1A05180A003DD23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PRLActivityIndicatorView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95CC4E6C1A05180A003DD23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PRLActivityIndicatorViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PRLActivityIndicatorView.app/PRLActivityIndicatorView";
+			};
+			name = Debug;
+		};
+		95CC4E6D1A05180A003DD23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PRLActivityIndicatorViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PRLActivityIndicatorView.app/PRLActivityIndicatorView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95CC4E401A05180A003DD23F /* Build configuration list for PBXProject "PRLActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CC4E661A05180A003DD23F /* Debug */,
+				95CC4E671A05180A003DD23F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95CC4E681A05180A003DD23F /* Build configuration list for PBXNativeTarget "PRLActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CC4E691A05180A003DD23F /* Debug */,
+				95CC4E6A1A05180A003DD23F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95CC4E6B1A05180A003DD23F /* Build configuration list for PBXNativeTarget "PRLActivityIndicatorViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CC4E6C1A05180A003DD23F /* Debug */,
+				95CC4E6D1A05180A003DD23F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95CC4E3D1A05180A003DD23F /* Project object */;
+}
