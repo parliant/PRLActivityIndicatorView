@@ -16,11 +16,11 @@ Builds sample application to show the capabilities. Run the project, and touch t
 
 The main class file that implements PRLActivityIndicatorView. You need these files in your project.
 
-#### PRLViewAnimator.m and .h files
+### PRLViewAnimator.m and .h files
 
 This class animates the in progress status of PRLActivityIndicatorView. These files are also required in your project.
 
-#### Other source files
+### Other source files
 
 To implement the demo application. Not required in your project.
 
