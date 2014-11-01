@@ -1,4 +1,4 @@
-# PRLIndeterminateProgressIndicator
+# PRLActivityIndicatorView
 
 ## Description
 
@@ -12,13 +12,13 @@ I started this project to provide an alternative indicator to the what Apple pro
 
 Builds sample application to show the capabilities. Run the project, and touch the four buttons to display each state.
 
-### PRLIndeterminateProgressIndicator.m and .h files
+### PRLActivityIndicatorView.m and .h files
 
-The main class file that implements PRLIndeterminateProgressIndicator. You need these files in your project.
+The main class file that implements PRLActivityIndicatorView. You need these files in your project.
 
 #### PRLViewAnimator.m and .h files
 
-This class animates the in progress status of PRLIndeterminateProgressIndicator. These files are also required in your project.
+This class animates the in progress status of PRLActivityIndicatorView. These files are also required in your project.
 
 #### Other source files
 
@@ -28,7 +28,7 @@ To implement the demo application. Not required in your project.
 
 Released under the Modified BSD License. (Attribution Required)
 
-PRLIndeterminateProgressIndicator
+PRLActivityIndicatorView
 
 Copyright (c) 2014 Parliant Corporation. All rights reserved.
 <pre>
